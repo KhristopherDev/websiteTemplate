@@ -1,0 +1,183 @@
+/*defs*/
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    /*This property makes the website always be filling the window. [1]*/
+}
+
+body {
+    background-size: cover;
+    /*This 4 properties are used to make the background fills the webpage. [2]*/
+    background-position: center center;
+    /*[2]*/
+    background-repeat: no-repeat;
+    /*[2]*/
+    background-attachment: fixed;
+    /*This property prevents the webpage have a bottom bar.*/
+    /*[2]*/
+}
+
+/*defs*/
+
+/*Logo*/
+
+.capsule-logo {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.logo:hover {
+    text-shadow: 1px 1px rgb(39, 87, 119);
+    cursor: pointer;
+}
+
+/*Logo*/
+
+/*header*/
+
+/*headerdefs*/
+
+header {
+    height: 50px;
+    color: rgb(64, 141, 192);
+    display: grid;
+    grid-template-columns: 0.1fr 0.1fr;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-bottom: solid 2px rgb(64, 141, 192);
+}
+
+header div {
+    height: 30px;
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    column-gap: 5px;
+    text-align: center;
+
+}
+
+/*headerdefs*/
+
+/*headerdefs*/
+
+
+/*menu*/
+
+header div a:link,
+header div a:visited {
+    text-align: center;
+    font-size: 13px;
+    border-radius: 7px;
+    height: 26px;
+    color: rgb(64, 141, 192);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+header div a:hover {
+    background: rgb(211, 211, 253);
+}
+
+.getstarted {
+    width: 95px;
+    height: 30px;
+    font-size: 11px;
+    color: white;
+    border: solid darkblue 1px;
+    background-color: darkblue;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.getstarted:hover {
+    border: solid dodgerblue 3px;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+/*menu*/
+
+/*title*/
+
+.capsule-title {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 400px;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.capsule-title h1 {
+    font-weight: bolder;
+    color: rgb(36, 83, 113);
+}
+
+.capsule-title button {
+    font-size: 15px;
+    width: 180px;
+    height: 60px;
+}
+
+/*title*/
+
+/*main-content*/
+
+/*content-blocks*/
+
+.content-blocks {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.content-blocks-capsule {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    gap: 40px;
+}
+
+.content-blocks-capsule div {
+    background-image: linear-gradient(to bottom, white, rgb(244, 244, 244));
+    box-shadow: 0px 3px 10px 1px rgba(71, 71, 71, 0.2);
+}
+
+.content-blocks-capsule h2 {
+    color: rgb(36, 83, 113);
+}
+
+.content-blocks-capsule span {
+    color: rgb(64, 141, 192);
+}
+
+.content-blocks-capsule p {
+    font-size: 14px;
+}
+
+.content-blocks-capsule div * {
+    margin: 20px;
+}
+
+/*content-blocks*/
+
+/*main-content*/
+
+/*header*/
